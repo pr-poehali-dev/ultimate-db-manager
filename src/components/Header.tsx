@@ -12,13 +12,13 @@ export default function Header({ className }: HeaderProps) {
             href="#about"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
-            Курсы
+            Мой путь
           </a>
           <a
             href="#contact"
             className="text-white hover:text-neutral-400 transition-colors duration-300 uppercase text-sm"
           >
-            Записаться
+            Итоги
           </a>
         </nav>
       </div>

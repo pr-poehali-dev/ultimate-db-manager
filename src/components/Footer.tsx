@@ -9,53 +9,23 @@ export default function Footer() {
           <div className="bg-neutral-900 py-4 sm:py-6 lg:py-8 px-4 sm:px-6 h-full w-full flex flex-col justify-between">
             <div className="flex shrink-0 gap-8 sm:gap-12 lg:gap-20">
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Курсы</h3>
-                <a
-                  href="#python"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Python
-                </a>
-                <a
-                  href="#algorithms"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Алгоритмы
-                </a>
-                <a
-                  href="#olympiad"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Олимпиады
-                </a>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Итоги года</h3>
+                <span className="text-white text-sm sm:text-base">Python — уверенный уровень</span>
+                <span className="text-white text-sm sm:text-base">Алгоритмы — решаю олимпиадные задачи</span>
+                <span className="text-white text-sm sm:text-base">Проекты — портфолио готово</span>
               </div>
               <div className="flex flex-col gap-1 sm:gap-2">
-                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Контакты</h3>
-                <a
-                  href="#enroll"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Записаться
-                </a>
-                <a
-                  href="#about"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  О преподавателе
-                </a>
-                <a
-                  href="#faq"
-                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
-                >
-                  Вопросы
-                </a>
+                <h3 className="mb-1 sm:mb-2 uppercase text-neutral-400 text-xs sm:text-sm">Планы</h3>
+                <span className="text-white text-sm sm:text-base">Продолжить обучение в IT</span>
+                <span className="text-white text-sm sm:text-base">Участие в олимпиадах</span>
+                <span className="text-white text-sm sm:text-base">Разработать свой продукт</span>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
               <h1 className="text-[14vw] sm:text-[12vw] lg:text-[10vw] leading-[0.8] mt-4 sm:mt-6 lg:mt-10 text-white font-bold tracking-tight">
-                ALGORITHMIKA
+                СПАСИБО
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} Algorithmika IT</p>
+              <p className="text-white text-sm sm:text-base opacity-50">Algorithmika IT · {new Date().getFullYear()}</p>
             </div>
           </div>
         </div>

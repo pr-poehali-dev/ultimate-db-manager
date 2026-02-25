@@ -23,19 +23,17 @@ export default function Hero() {
           alt="Mountain landscape"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
-      <div className="relative z-10 text-center text-white">
-        <p className="text-sm uppercase tracking-widest mb-4 opacity-80">Algorithmika IT</p>
+      <div className="relative z-10 text-center text-white px-6">
+        <p className="text-sm uppercase tracking-widest mb-4 opacity-70">Algorithmika IT · 2024–2025</p>
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 leading-none">
-          КОД — ЭТО<br />СУПЕРСИЛА
+          МОЙ ПУТЬ<br />В IT
         </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Обучаю программированию и алгоритмическому мышлению — от первого кода до уверенного IT-специалиста
+        <p className="text-lg md:text-xl max-w-xl mx-auto opacity-90 leading-relaxed">
+          Как я провёл год в Algorithmika: чему научился, что создал и куда двигаюсь дальше
         </p>
-        <button className="mt-8 border border-white text-white px-8 py-3 uppercase text-sm tracking-wide hover:bg-white hover:text-black transition-all duration-300 cursor-pointer">
-          Записаться на курс
-        </button>
       </div>
     </div>
   );
